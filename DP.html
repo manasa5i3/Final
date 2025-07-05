@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🧠 Disease Prediction | Project</title>
+  <link rel="stylesheet" href="mp.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 2rem;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .project-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+    h1 {
+      color: #4b6cb7;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.2rem;
+      background: #4b6cb7;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .back-btn:hover {
+      background: #3550a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <h1>🧠 Disease Prediction Using Symptoms</h1>
+    <p><strong>Description:</strong> This project aims to develop a Machine Learning-based system that can predict diseases by analyzing symptoms input by users. It helps in early diagnosis and guides patients to consult the right specialist, reducing delays and misdiagnoses.</p>
+    <p><strong>Objective:</strong> To use symptom-based data and predictive models to identify potential illnesses, improving access to primary diagnosis and saving time for both patients and medical professionals.</p>
+    <p><strong>Key Features:</strong></p>
+    <ul>
+      <li>User inputs common symptoms via a form or CLI</li>
+      <li>Machine Learning model trained with disease-symptom mapping</li>
+      <li>Outputs the most probable disease with confidence score</li>
+      <li>Random Forest Classifier used for high accuracy prediction</li>
+      <li>Scalable to include specialist recommendations in future</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> Python, Pandas, Scikit-learn, RandomForestClassifier, Flask (optional for web interface)</p>
+    <p>This model makes health assessment accessible, educates users on health conditions, and supports healthcare in underserved areas. It’s a base for building intelligent healthcare assistants.</p>
+    <a href="index.html" class="back-btn">🔙 Back to Portfolio</a>
+  </div>
+</body>
+</html>
